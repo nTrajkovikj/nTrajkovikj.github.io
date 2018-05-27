@@ -1,0 +1,53 @@
+td {
+    padding: 10px;
+}
+
+/* table {
+    border-spacing: 10px;
+    border-collapse: collapse;
+} */
+
+#nav {
+    clear: both;
+}
+
+#movie-details {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px;
+    border: 1px dashed #333;
+    /* background-color: #eee; */
+    display: none;
+}
+
+#container {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px;
+    /* border: 1px dashed #333; */
+    /* background-color: #eee; */
+}
+
+body {
+    margin: 50px 0;
+    padding: 0;
+    text-align: center;
+}
+
+#details {
+    text-align: center;
+}
+
+#info {
+    display: inline-block;
+}
+
+#img {
+    display: inline-block;
+}
+
+#error {
+    display:none;
+}

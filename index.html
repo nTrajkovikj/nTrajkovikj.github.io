@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+</head>
+
+<body>
+    <div class="container">
+        <div id="error" class="alert alert-danger"></div>
+        <div id="container">
+            <div id="nav">
+                <input type="text" id="search" value="Batman">
+                <input id="button" type="button" value="Make AJAX call">
+                <input id="delete" type="button" value="Delete Last">
+            </div>
+            <div id="movies">
+                <table border="1" id="movies" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Poster</th>
+                            <th>Title</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+
+                </table>
+            </div>
+        </div>
+        <div id="movie-details">
+            <button id="back">&#8678;</button>
+            <div id="details">
+                <div id="top">
+                    <div id="img"></div>
+                    <div id="info">
+                        <h2 id="title"></h2>
+                        <h5 id="director"></h5>
+                        <h5 id="production"></h5>
+                    </div>
+                </div>
+                <div id="plot">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
